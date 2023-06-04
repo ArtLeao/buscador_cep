@@ -1,0 +1,94 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(#121212, #01330c);
+}
+
+.title{
+    color: white;
+    font-size: 70px;
+    animation: girarTitulo 2s;
+}
+
+.containerInput{
+    background-color: rgba(255 , 255, 255, 0.2);
+    padding: 10px;
+    margin: 34px 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.containerInput input{
+    background-color: transparent;
+    border: 0;
+    font-size: 22px;
+    color: white;
+    outline: none;
+    margin-right: 8px;
+}
+
+.containerInput input::placeholder{
+    color: white;
+}
+
+.buttonSearch{
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: transform .4s;
+}
+
+.buttonSearch:hover{
+    transform: scale(1.5);
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+    background-color: black;
+    width: 400px;
+    padding: 10px;
+    border: 1px dashed white;
+    border-radius: 5px;
+}
+
+.main h3{
+    margin: 16px;
+    font-size: 30px;
+}
+
+.main span:last-child{
+    margin-bottom: 16px;
+}
+
+.main span{
+    font-weight: bold;
+}
+
+@keyframes girarTitulo {
+    from{
+        transform: rotateX(90deg);
+    }
+    to{
+        transform: rotateX(0deg);
+    }
+}
+
+/* quando a largura estiver entre 0 e 610px, aplica os seguintes efeitos*/
+@media (max-width: 610px){
+    .title{
+        font-size: 50px;
+    }
+
+    .main{
+        width: 60%;
+    }
+}
