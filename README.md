@@ -4,6 +4,10 @@ Esta aplicação permite que o usuário pesquise um CEP desejado e, se for encon
 
 ### Status do projeto
 
-Este projeto já foi concluído.
+Este projeto já foi concluído :heavy_check_mark:
+
+### Deploy
+
+Para visualizar a aplicação deste projeto, clique em: 
 
 
