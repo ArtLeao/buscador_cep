@@ -14,7 +14,33 @@ Para visualizar a aplicação deste projeto,  <a href="https://artleao.github.io
 
 No terminal, clone o projeto:
 
-> git clone 
+> git clone https://github.com/ArtLeao/buscador_cep.git
+
+Agora entre na pasta do projeto: 
+
+> cd buscador_cep
+
+Instale as dependências:
+
+> npm install
+
+Execute a aplicação:
+
+> npm start
+
+### Dependências e tecnologias utilizadas
+
+Para rodar o projeto, você precisará das seguintes tecnologias:
+
+- [React](https://pt-br.react.dev/learn) versão 18.2.0
+- [React Icons](https://react-icons.github.io/react-icons/) versão 4.8.0
+- [Node](https://nodejs.org/en/download) versão 16.18.0
+- [Axios](https://axios-http.com/ptbr/docs/intro) versão 1.4.0
+
+
+
+
+
 
 
 
