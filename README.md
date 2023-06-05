@@ -10,7 +10,11 @@ Este projeto já foi concluído :heavy_check_mark:
 
 Para visualizar a aplicação deste projeto,  <a href="https://artleao.github.io/buscador_cep" target="_blank">clique aqui</a>.
 
-### Dependências e Tecnologias
+### Como rodar o projeto
+
+No terminal, clone o projeto:
+
+> git clone 
 
 
 
