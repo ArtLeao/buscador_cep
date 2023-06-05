@@ -8,6 +8,6 @@ Este projeto já foi concluído :heavy_check_mark:
 
 ### Deploy
 
-Para visualizar a aplicação deste projeto, clique em: 
+Para visualizar a aplicação deste projeto, clique em: https://artleao.github.io/buscador_cep
 
 
