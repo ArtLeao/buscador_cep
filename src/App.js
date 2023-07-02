@@ -21,7 +21,7 @@ function App() {
       return false
     }
     
-    response = await api.get(`${input}/json/`);
+    response = await api.get(`${input}/json`);
 
     if(response.data.hasOwnProperty("erro")){
       alert("Ops, CEP não encontrado!");
